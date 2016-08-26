@@ -1,0 +1,282 @@
+# Logfile created on 2016-08-26 15:43:36 +0800 by logger.rb/47272
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-08-26 15:43:36 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2eba2825] Running /usr/bin/env mkdir -p /tmp as deploy@120.26.78.41
+ DEBUG [2eba2825] Command: /usr/bin/env mkdir -p /tmp
+  INFO [2eba2825] Finished in 0.382 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-shengwei_php-production-xiaodiao.sh 0.0%
+  INFO Uploading /tmp/git-ssh-shengwei_php-production-xiaodiao.sh 100.0%
+  INFO [8900fd88] Running /usr/bin/env chmod 700 /tmp/git-ssh-shengwei_php-production-xiaodiao.sh as deploy@120.26.78.41
+ DEBUG [8900fd88] Command: /usr/bin/env chmod 700 /tmp/git-ssh-shengwei_php-production-xiaodiao.sh
+  INFO [8900fd88] Finished in 0.051 seconds with exit status 0 (successful).
+  INFO [b71c5dae] Running /usr/bin/env git ls-remote --heads git@github.com:csxiaodiao/shenglight.git as deploy@120.26.78.41
+ DEBUG [b71c5dae] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-shengwei_php-production-xiaodiao.sh" ; /usr/bin/env git ls-remote --heads git@github.com:csxiaodiao/shenglight.git )
+ DEBUG [b71c5dae] 	Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+ DEBUG [b71c5dae] 	c17f0a2a4c94b74e53fa5d2a4b67ace8e6aa7a19	refs/heads/master
+  INFO [b71c5dae] Finished in 4.342 seconds with exit status 0 (successful).
+  INFO [4222c083] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared /var/apps/shengwei_php_production/releases as deploy@120.26.78.41
+ DEBUG [4222c083] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared /var/apps/shengwei_php_production/releases
+  INFO [4222c083] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [ad33dc10] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/uploadfile as deploy@120.26.78.41
+ DEBUG [ad33dc10] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/uploadfile
+  INFO [ad33dc10] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [94b0d6b5] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/caches/configs /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs as deploy@120.26.78.41
+ DEBUG [94b0d6b5] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/caches/configs /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs
+  INFO [94b0d6b5] Finished in 0.033 seconds with exit status 0 (successful).
+ DEBUG [2a44fa72] Running [ -f /var/apps/shengwei_php_production/shared/caches/configs/database.php ] as deploy@120.26.78.41
+ DEBUG [2a44fa72] Command: [ -f /var/apps/shengwei_php_production/shared/caches/configs/database.php ]
+ DEBUG [2a44fa72] Finished in 0.034 seconds with exit status 1 (failed).
+ ERROR linked file /var/apps/shengwei_php_production/shared/caches/configs/database.php does not exist on 120.26.78.41
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-08-26 15:43:54 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [876514d8] Running /usr/bin/env mkdir -p /tmp as deploy@120.26.78.41
+ DEBUG [876514d8] Command: /usr/bin/env mkdir -p /tmp
+  INFO [876514d8] Finished in 0.286 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-shengwei_php-production-xiaodiao.sh 0.0%
+  INFO Uploading /tmp/git-ssh-shengwei_php-production-xiaodiao.sh 100.0%
+  INFO [225cdcf4] Running /usr/bin/env chmod 700 /tmp/git-ssh-shengwei_php-production-xiaodiao.sh as deploy@120.26.78.41
+ DEBUG [225cdcf4] Command: /usr/bin/env chmod 700 /tmp/git-ssh-shengwei_php-production-xiaodiao.sh
+  INFO [225cdcf4] Finished in 0.040 seconds with exit status 0 (successful).
+  INFO [5f986c96] Running /usr/bin/env git ls-remote --heads git@github.com:csxiaodiao/shenglight.git as deploy@120.26.78.41
+ DEBUG [5f986c96] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-shengwei_php-production-xiaodiao.sh" ; /usr/bin/env git ls-remote --heads git@github.com:csxiaodiao/shenglight.git )
+ DEBUG [5f986c96] 	c17f0a2a4c94b74e53fa5d2a4b67ace8e6aa7a19	refs/heads/master
+  INFO [5f986c96] Finished in 4.756 seconds with exit status 0 (successful).
+  INFO [547c0a02] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared /var/apps/shengwei_php_production/releases as deploy@120.26.78.41
+ DEBUG [547c0a02] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared /var/apps/shengwei_php_production/releases
+  INFO [547c0a02] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO [533d03ce] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/uploadfile as deploy@120.26.78.41
+ DEBUG [533d03ce] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/uploadfile
+  INFO [533d03ce] Finished in 0.040 seconds with exit status 0 (successful).
+  INFO [974f3a67] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/caches/configs /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs as deploy@120.26.78.41
+ DEBUG [974f3a67] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/caches/configs /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs
+  INFO [974f3a67] Finished in 0.039 seconds with exit status 0 (successful).
+ DEBUG [0a8a66e6] Running [ -f /var/apps/shengwei_php_production/shared/caches/configs/database.php ] as deploy@120.26.78.41
+ DEBUG [0a8a66e6] Command: [ -f /var/apps/shengwei_php_production/shared/caches/configs/database.php ]
+ DEBUG [0a8a66e6] Finished in 0.037 seconds with exit status 1 (failed).
+ ERROR linked file /var/apps/shengwei_php_production/shared/caches/configs/database.php does not exist on 120.26.78.41
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-08-26 15:44:54 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [103cc750] Running /usr/bin/env mkdir -p /tmp as deploy@120.26.78.41
+ DEBUG [103cc750] Command: /usr/bin/env mkdir -p /tmp
+  INFO [103cc750] Finished in 0.319 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-shengwei_php-production-xiaodiao.sh 0.0%
+  INFO Uploading /tmp/git-ssh-shengwei_php-production-xiaodiao.sh 100.0%
+  INFO [b06a83f8] Running /usr/bin/env chmod 700 /tmp/git-ssh-shengwei_php-production-xiaodiao.sh as deploy@120.26.78.41
+ DEBUG [b06a83f8] Command: /usr/bin/env chmod 700 /tmp/git-ssh-shengwei_php-production-xiaodiao.sh
+  INFO [b06a83f8] Finished in 0.033 seconds with exit status 0 (successful).
+  INFO [8b74b081] Running /usr/bin/env git ls-remote --heads git@github.com:csxiaodiao/shenglight.git as deploy@120.26.78.41
+ DEBUG [8b74b081] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-shengwei_php-production-xiaodiao.sh" ; /usr/bin/env git ls-remote --heads git@github.com:csxiaodiao/shenglight.git )
+ DEBUG [8b74b081] 	c17f0a2a4c94b74e53fa5d2a4b67ace8e6aa7a19	refs/heads/master
+  INFO [8b74b081] Finished in 4.467 seconds with exit status 0 (successful).
+  INFO [9578f4b4] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared /var/apps/shengwei_php_production/releases as deploy@120.26.78.41
+ DEBUG [9578f4b4] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared /var/apps/shengwei_php_production/releases
+  INFO [9578f4b4] Finished in 0.033 seconds with exit status 0 (successful).
+  INFO [541bd15f] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/uploadfile as deploy@120.26.78.41
+ DEBUG [541bd15f] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/uploadfile
+  INFO [541bd15f] Finished in 0.032 seconds with exit status 0 (successful).
+  INFO [67ccf9c6] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/caches/configs /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs as deploy@120.26.78.41
+ DEBUG [67ccf9c6] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/caches/configs /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs
+  INFO [67ccf9c6] Finished in 0.033 seconds with exit status 0 (successful).
+ DEBUG [9e686e1f] Running [ -f /var/apps/shengwei_php_production/shared/caches/configs/database.php ] as deploy@120.26.78.41
+ DEBUG [9e686e1f] Command: [ -f /var/apps/shengwei_php_production/shared/caches/configs/database.php ]
+ DEBUG [9e686e1f] Finished in 0.033 seconds with exit status 0 (successful).
+ DEBUG [7216044e] Running [ -f /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs/database.php ] as deploy@120.26.78.41
+ DEBUG [7216044e] Command: [ -f /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs/database.php ]
+ DEBUG [7216044e] Finished in 0.029 seconds with exit status 1 (failed).
+ ERROR linked file /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs/database.php does not exist on 120.26.78.41
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-08-26 15:46:05 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b2f94e34] Running /usr/bin/env mkdir -p /tmp as deploy@120.26.78.41
+ DEBUG [b2f94e34] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b2f94e34] Finished in 0.367 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-shengwei_php-production-xiaodiao.sh 0.0%
+  INFO Uploading /tmp/git-ssh-shengwei_php-production-xiaodiao.sh 100.0%
+  INFO [96f86829] Running /usr/bin/env chmod 700 /tmp/git-ssh-shengwei_php-production-xiaodiao.sh as deploy@120.26.78.41
+ DEBUG [96f86829] Command: /usr/bin/env chmod 700 /tmp/git-ssh-shengwei_php-production-xiaodiao.sh
+  INFO [96f86829] Finished in 0.035 seconds with exit status 0 (successful).
+  INFO [698e5974] Running /usr/bin/env git ls-remote --heads git@github.com:csxiaodiao/shenglight.git as deploy@120.26.78.41
+ DEBUG [698e5974] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-shengwei_php-production-xiaodiao.sh" ; /usr/bin/env git ls-remote --heads git@github.com:csxiaodiao/shenglight.git )
+ DEBUG [698e5974] 	c17f0a2a4c94b74e53fa5d2a4b67ace8e6aa7a19	refs/heads/master
+  INFO [698e5974] Finished in 9.825 seconds with exit status 0 (successful).
+  INFO [b1aa7c14] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared /var/apps/shengwei_php_production/releases as deploy@120.26.78.41
+ DEBUG [b1aa7c14] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared /var/apps/shengwei_php_production/releases
+  INFO [b1aa7c14] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [59219b98] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/uploadfile as deploy@120.26.78.41
+ DEBUG [59219b98] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/uploadfile
+  INFO [59219b98] Finished in 0.035 seconds with exit status 0 (successful).
+  INFO [5bfc4459] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/caches/configs /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs as deploy@120.26.78.41
+ DEBUG [5bfc4459] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/caches/configs /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs
+  INFO [5bfc4459] Finished in 0.034 seconds with exit status 0 (successful).
+ DEBUG [94964413] Running [ -f /var/apps/shengwei_php_production/shared/caches/configs/database.php ] as deploy@120.26.78.41
+ DEBUG [94964413] Command: [ -f /var/apps/shengwei_php_production/shared/caches/configs/database.php ]
+ DEBUG [94964413] Finished in 0.032 seconds with exit status 0 (successful).
+ DEBUG [ba13b00d] Running [ -f /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs/database.php ] as deploy@120.26.78.41
+ DEBUG [ba13b00d] Command: [ -f /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs/database.php ]
+ DEBUG [ba13b00d] Finished in 0.032 seconds with exit status 1 (failed).
+ ERROR linked file /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs/database.php does not exist on 120.26.78.41
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-08-26 15:46:55 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [fe24cae0] Running /usr/bin/env mkdir -p /tmp as deploy@120.26.78.41
+ DEBUG [fe24cae0] Command: /usr/bin/env mkdir -p /tmp
+  INFO [fe24cae0] Finished in 0.299 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-shengwei_php-production-xiaodiao.sh 0.0%
+  INFO Uploading /tmp/git-ssh-shengwei_php-production-xiaodiao.sh 100.0%
+  INFO [d830e3f1] Running /usr/bin/env chmod 700 /tmp/git-ssh-shengwei_php-production-xiaodiao.sh as deploy@120.26.78.41
+ DEBUG [d830e3f1] Command: /usr/bin/env chmod 700 /tmp/git-ssh-shengwei_php-production-xiaodiao.sh
+  INFO [d830e3f1] Finished in 0.038 seconds with exit status 0 (successful).
+  INFO [7d05b26e] Running /usr/bin/env git ls-remote --heads git@github.com:csxiaodiao/shenglight.git as deploy@120.26.78.41
+ DEBUG [7d05b26e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-shengwei_php-production-xiaodiao.sh" ; /usr/bin/env git ls-remote --heads git@github.com:csxiaodiao/shenglight.git )
+ DEBUG [7d05b26e] 	c17f0a2a4c94b74e53fa5d2a4b67ace8e6aa7a19	refs/heads/master
+  INFO [7d05b26e] Finished in 4.355 seconds with exit status 0 (successful).
+  INFO [ba7e03b9] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared /var/apps/shengwei_php_production/releases as deploy@120.26.78.41
+ DEBUG [ba7e03b9] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared /var/apps/shengwei_php_production/releases
+  INFO [ba7e03b9] Finished in 0.039 seconds with exit status 0 (successful).
+  INFO [7d63a912] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/uploadfile as deploy@120.26.78.41
+ DEBUG [7d63a912] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/uploadfile
+  INFO [7d63a912] Finished in 0.039 seconds with exit status 0 (successful).
+  INFO [2344595b] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/caches/configs /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs as deploy@120.26.78.41
+ DEBUG [2344595b] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/caches/configs /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs
+  INFO [2344595b] Finished in 0.037 seconds with exit status 0 (successful).
+ DEBUG [edd30d5b] Running [ -f /var/apps/shengwei_php_production/shared/caches/configs/database.php ] as deploy@120.26.78.41
+ DEBUG [edd30d5b] Command: [ -f /var/apps/shengwei_php_production/shared/caches/configs/database.php ]
+ DEBUG [edd30d5b] Finished in 0.038 seconds with exit status 0 (successful).
+ DEBUG [f9f74904] Running [ -f /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs/database.php ] as deploy@120.26.78.41
+ DEBUG [f9f74904] Command: [ -f /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs/database.php ]
+ DEBUG [f9f74904] Finished in 0.036 seconds with exit status 1 (failed).
+ ERROR linked file /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs/database.php does not exist on 120.26.78.41
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-08-26 15:47:54 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [0a68ea08] Running /usr/bin/env mkdir -p /tmp as deploy@120.26.78.41
+ DEBUG [0a68ea08] Command: /usr/bin/env mkdir -p /tmp
+  INFO [0a68ea08] Finished in 0.317 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-shengwei_php-production-xiaodiao.sh 0.0%
+  INFO Uploading /tmp/git-ssh-shengwei_php-production-xiaodiao.sh 100.0%
+  INFO [3e4fce98] Running /usr/bin/env chmod 700 /tmp/git-ssh-shengwei_php-production-xiaodiao.sh as deploy@120.26.78.41
+ DEBUG [3e4fce98] Command: /usr/bin/env chmod 700 /tmp/git-ssh-shengwei_php-production-xiaodiao.sh
+  INFO [3e4fce98] Finished in 0.040 seconds with exit status 0 (successful).
+  INFO [0941321d] Running /usr/bin/env git ls-remote --heads git@github.com:csxiaodiao/shenglight.git as deploy@120.26.78.41
+ DEBUG [0941321d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-shengwei_php-production-xiaodiao.sh" ; /usr/bin/env git ls-remote --heads git@github.com:csxiaodiao/shenglight.git )
+ DEBUG [0941321d] 	Warning: Permanently added the RSA host key for IP address '192.30.253.112' to the list of known hosts.
+ DEBUG [0941321d] 	c17f0a2a4c94b74e53fa5d2a4b67ace8e6aa7a19	refs/heads/master
+  INFO [0941321d] Finished in 4.123 seconds with exit status 0 (successful).
+  INFO [f608d75e] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared /var/apps/shengwei_php_production/releases as deploy@120.26.78.41
+ DEBUG [f608d75e] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared /var/apps/shengwei_php_production/releases
+  INFO [f608d75e] Finished in 0.039 seconds with exit status 0 (successful).
+  INFO [aba68ee3] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/uploadfile as deploy@120.26.78.41
+ DEBUG [aba68ee3] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/uploadfile
+  INFO [aba68ee3] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO [73dc80f9] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/caches/configs /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs as deploy@120.26.78.41
+ DEBUG [73dc80f9] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/shared/caches/configs /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs
+  INFO [73dc80f9] Finished in 0.039 seconds with exit status 0 (successful).
+ DEBUG [755c45a7] Running [ -f /var/apps/shengwei_php_production/shared/caches/configs/database.php ] as deploy@120.26.78.41
+ DEBUG [755c45a7] Command: [ -f /var/apps/shengwei_php_production/shared/caches/configs/database.php ]
+ DEBUG [755c45a7] Finished in 0.036 seconds with exit status 0 (successful).
+ DEBUG [b6c6093d] Running [ -f /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs/database.php ] as deploy@120.26.78.41
+ DEBUG [b6c6093d] Command: [ -f /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs/database.php ]
+ DEBUG [b6c6093d] Finished in 0.035 seconds with exit status 0 (successful).
+ DEBUG [caadae16] Running [ -f /var/apps/shengwei_php_production/current/REVISION ] as deploy@120.26.78.41
+ DEBUG [caadae16] Command: [ -f /var/apps/shengwei_php_production/current/REVISION ]
+ DEBUG [caadae16] Finished in 0.037 seconds with exit status 1 (failed).
+ DEBUG [ea59c7d3] Running [ -f /var/apps/shengwei_php_production/repo/HEAD ] as deploy@120.26.78.41
+ DEBUG [ea59c7d3] Command: [ -f /var/apps/shengwei_php_production/repo/HEAD ]
+ DEBUG [ea59c7d3] Finished in 0.037 seconds with exit status 1 (failed).
+ DEBUG [b3b58ae5] Running if test ! -d /var/apps/shengwei_php_production; then echo "Directory does not exist '/var/apps/shengwei_php_production'" 1>&2; false; fi as deploy@120.26.78.41
+ DEBUG [b3b58ae5] Command: if test ! -d /var/apps/shengwei_php_production; then echo "Directory does not exist '/var/apps/shengwei_php_production'" 1>&2; false; fi
+ DEBUG [b3b58ae5] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [4fda5322] Running /usr/bin/env git clone --mirror git@github.com:csxiaodiao/shenglight.git /var/apps/shengwei_php_production/repo as deploy@120.26.78.41
+ DEBUG [4fda5322] Command: cd /var/apps/shengwei_php_production && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-shengwei_php-production-xiaodiao.sh" ; /usr/bin/env git clone --mirror git@github.com:csxiaodiao/shenglight.git /var/apps/shengwei_php_production/repo )
+ DEBUG [4fda5322] 	Cloning into bare repository '/var/apps/shengwei_php_production/repo'...
+  INFO [4fda5322] Finished in 17.140 seconds with exit status 0 (successful).
+ DEBUG [8b4e9eab] Running if test ! -d /var/apps/shengwei_php_production/repo; then echo "Directory does not exist '/var/apps/shengwei_php_production/repo'" 1>&2; false; fi as deploy@120.26.78.41
+ DEBUG [8b4e9eab] Command: if test ! -d /var/apps/shengwei_php_production/repo; then echo "Directory does not exist '/var/apps/shengwei_php_production/repo'" 1>&2; false; fi
+ DEBUG [8b4e9eab] Finished in 0.039 seconds with exit status 0 (successful).
+  INFO [75bacaf6] Running /usr/bin/env git remote update --prune as deploy@120.26.78.41
+ DEBUG [75bacaf6] Command: cd /var/apps/shengwei_php_production/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-shengwei_php-production-xiaodiao.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [75bacaf6] 	Fetching origin
+  INFO [75bacaf6] Finished in 4.096 seconds with exit status 0 (successful).
+ DEBUG [303880fb] Running if test ! -d /var/apps/shengwei_php_production/repo; then echo "Directory does not exist '/var/apps/shengwei_php_production/repo'" 1>&2; false; fi as deploy@120.26.78.41
+ DEBUG [303880fb] Command: if test ! -d /var/apps/shengwei_php_production/repo; then echo "Directory does not exist '/var/apps/shengwei_php_production/repo'" 1>&2; false; fi
+ DEBUG [303880fb] Finished in 0.038 seconds with exit status 0 (successful).
+  INFO [a804135b] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/releases/20160826074800 as deploy@120.26.78.41
+ DEBUG [a804135b] Command: cd /var/apps/shengwei_php_production/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-shengwei_php-production-xiaodiao.sh" ; /usr/bin/env mkdir -p /var/apps/shengwei_php_production/releases/20160826074800 )
+  INFO [a804135b] Finished in 0.038 seconds with exit status 0 (successful).
+  INFO [a1e55b1f] Running /usr/bin/env git archive master website | tar -x --strip-components 1 -f - -C /var/apps/shengwei_php_production/releases/20160826074800 as deploy@120.26.78.41
+ DEBUG [a1e55b1f] Command: cd /var/apps/shengwei_php_production/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-shengwei_php-production-xiaodiao.sh" ; /usr/bin/env git archive master website | tar -x --strip-components 1 -f - -C /var/apps/shengwei_php_production/releases/20160826074800 )
+  INFO [a1e55b1f] Finished in 0.448 seconds with exit status 0 (successful).
+ DEBUG [ec674b61] Running if test ! -d /var/apps/shengwei_php_production/repo; then echo "Directory does not exist '/var/apps/shengwei_php_production/repo'" 1>&2; false; fi as deploy@120.26.78.41
+ DEBUG [ec674b61] Command: if test ! -d /var/apps/shengwei_php_production/repo; then echo "Directory does not exist '/var/apps/shengwei_php_production/repo'" 1>&2; false; fi
+ DEBUG [ec674b61] Finished in 0.038 seconds with exit status 0 (successful).
+ DEBUG [cd9dd3b0] Running /usr/bin/env git rev-list --max-count=1 master as deploy@120.26.78.41
+ DEBUG [cd9dd3b0] Command: cd /var/apps/shengwei_php_production/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-shengwei_php-production-xiaodiao.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [cd9dd3b0] 	c17f0a2a4c94b74e53fa5d2a4b67ace8e6aa7a19
+ DEBUG [cd9dd3b0] Finished in 0.040 seconds with exit status 0 (successful).
+ DEBUG [5e8832d8] Running if test ! -d /var/apps/shengwei_php_production/releases/20160826074800; then echo "Directory does not exist '/var/apps/shengwei_php_production/releases/20160826074800'" 1>&2; false; fi as deploy@120.26.78.41
+ DEBUG [5e8832d8] Command: if test ! -d /var/apps/shengwei_php_production/releases/20160826074800; then echo "Directory does not exist '/var/apps/shengwei_php_production/releases/20160826074800'" 1>&2; false; fi
+ DEBUG [5e8832d8] Finished in 0.039 seconds with exit status 0 (successful).
+  INFO [3465a147] Running /usr/bin/env echo "c17f0a2a4c94b74e53fa5d2a4b67ace8e6aa7a19" >> REVISION as deploy@120.26.78.41
+ DEBUG [3465a147] Command: cd /var/apps/shengwei_php_production/releases/20160826074800 && /usr/bin/env echo "c17f0a2a4c94b74e53fa5d2a4b67ace8e6aa7a19" >> REVISION
+  INFO [3465a147] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO [bc34bb3f] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/releases/20160826074800/caches/configs /var/apps/shengwei_php_production/releases/20160826074800/phpsso_server/caches/configs as deploy@120.26.78.41
+ DEBUG [bc34bb3f] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/releases/20160826074800/caches/configs /var/apps/shengwei_php_production/releases/20160826074800/phpsso_server/caches/configs
+  INFO [bc34bb3f] Finished in 0.039 seconds with exit status 0 (successful).
+ DEBUG [007bff7f] Running [ -L /var/apps/shengwei_php_production/releases/20160826074800/caches/configs/database.php ] as deploy@120.26.78.41
+ DEBUG [007bff7f] Command: [ -L /var/apps/shengwei_php_production/releases/20160826074800/caches/configs/database.php ]
+ DEBUG [007bff7f] Finished in 0.036 seconds with exit status 1 (failed).
+ DEBUG [5cd49840] Running [ -f /var/apps/shengwei_php_production/releases/20160826074800/caches/configs/database.php ] as deploy@120.26.78.41
+ DEBUG [5cd49840] Command: [ -f /var/apps/shengwei_php_production/releases/20160826074800/caches/configs/database.php ]
+ DEBUG [5cd49840] Finished in 0.035 seconds with exit status 0 (successful).
+  INFO [cf11a94b] Running /usr/bin/env rm /var/apps/shengwei_php_production/releases/20160826074800/caches/configs/database.php as deploy@120.26.78.41
+ DEBUG [cf11a94b] Command: /usr/bin/env rm /var/apps/shengwei_php_production/releases/20160826074800/caches/configs/database.php
+  INFO [cf11a94b] Finished in 0.038 seconds with exit status 0 (successful).
+  INFO [e53443df] Running /usr/bin/env ln -s /var/apps/shengwei_php_production/shared/caches/configs/database.php /var/apps/shengwei_php_production/releases/20160826074800/caches/configs/database.php as deploy@120.26.78.41
+ DEBUG [e53443df] Command: /usr/bin/env ln -s /var/apps/shengwei_php_production/shared/caches/configs/database.php /var/apps/shengwei_php_production/releases/20160826074800/caches/configs/database.php
+  INFO [e53443df] Finished in 0.036 seconds with exit status 0 (successful).
+ DEBUG [f9300348] Running [ -L /var/apps/shengwei_php_production/releases/20160826074800/phpsso_server/caches/configs/database.php ] as deploy@120.26.78.41
+ DEBUG [f9300348] Command: [ -L /var/apps/shengwei_php_production/releases/20160826074800/phpsso_server/caches/configs/database.php ]
+ DEBUG [f9300348] Finished in 0.039 seconds with exit status 1 (failed).
+ DEBUG [e3c02a5e] Running [ -f /var/apps/shengwei_php_production/releases/20160826074800/phpsso_server/caches/configs/database.php ] as deploy@120.26.78.41
+ DEBUG [e3c02a5e] Command: [ -f /var/apps/shengwei_php_production/releases/20160826074800/phpsso_server/caches/configs/database.php ]
+ DEBUG [e3c02a5e] Finished in 0.038 seconds with exit status 0 (successful).
+  INFO [9985ad0d] Running /usr/bin/env rm /var/apps/shengwei_php_production/releases/20160826074800/phpsso_server/caches/configs/database.php as deploy@120.26.78.41
+ DEBUG [9985ad0d] Command: /usr/bin/env rm /var/apps/shengwei_php_production/releases/20160826074800/phpsso_server/caches/configs/database.php
+  INFO [9985ad0d] Finished in 0.040 seconds with exit status 0 (successful).
+  INFO [0acc56e8] Running /usr/bin/env ln -s /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs/database.php /var/apps/shengwei_php_production/releases/20160826074800/phpsso_server/caches/configs/database.php as deploy@120.26.78.41
+ DEBUG [0acc56e8] Command: /usr/bin/env ln -s /var/apps/shengwei_php_production/shared/phpsso_server/caches/configs/database.php /var/apps/shengwei_php_production/releases/20160826074800/phpsso_server/caches/configs/database.php
+  INFO [0acc56e8] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [79f13cd3] Running /usr/bin/env mkdir -p /var/apps/shengwei_php_production/releases/20160826074800 as deploy@120.26.78.41
+ DEBUG [79f13cd3] Command: /usr/bin/env mkdir -p /var/apps/shengwei_php_production/releases/20160826074800
+  INFO [79f13cd3] Finished in 0.038 seconds with exit status 0 (successful).
+ DEBUG [6a0ad8e8] Running [ -L /var/apps/shengwei_php_production/releases/20160826074800/uploadfile ] as deploy@120.26.78.41
+ DEBUG [6a0ad8e8] Command: [ -L /var/apps/shengwei_php_production/releases/20160826074800/uploadfile ]
+ DEBUG [6a0ad8e8] Finished in 0.035 seconds with exit status 1 (failed).
+ DEBUG [47d73b6c] Running [ -d /var/apps/shengwei_php_production/releases/20160826074800/uploadfile ] as deploy@120.26.78.41
+ DEBUG [47d73b6c] Command: [ -d /var/apps/shengwei_php_production/releases/20160826074800/uploadfile ]
+ DEBUG [47d73b6c] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [e33a3fcc] Running /usr/bin/env rm -rf /var/apps/shengwei_php_production/releases/20160826074800/uploadfile as deploy@120.26.78.41
+ DEBUG [e33a3fcc] Command: /usr/bin/env rm -rf /var/apps/shengwei_php_production/releases/20160826074800/uploadfile
+  INFO [e33a3fcc] Finished in 0.038 seconds with exit status 0 (successful).
+  INFO [73058292] Running /usr/bin/env ln -s /var/apps/shengwei_php_production/shared/uploadfile /var/apps/shengwei_php_production/releases/20160826074800/uploadfile as deploy@120.26.78.41
+ DEBUG [73058292] Command: /usr/bin/env ln -s /var/apps/shengwei_php_production/shared/uploadfile /var/apps/shengwei_php_production/releases/20160826074800/uploadfile
+  INFO [73058292] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [9c4cd38d] Running /usr/bin/env ln -s /var/apps/shengwei_php_production/releases/20160826074800 /var/apps/shengwei_php_production/releases/current as deploy@120.26.78.41
+ DEBUG [9c4cd38d] Command: /usr/bin/env ln -s /var/apps/shengwei_php_production/releases/20160826074800 /var/apps/shengwei_php_production/releases/current
+  INFO [9c4cd38d] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [911cc90b] Running /usr/bin/env mv /var/apps/shengwei_php_production/releases/current /var/apps/shengwei_php_production as deploy@120.26.78.41
+ DEBUG [911cc90b] Command: /usr/bin/env mv /var/apps/shengwei_php_production/releases/current /var/apps/shengwei_php_production
+  INFO [911cc90b] Finished in 0.038 seconds with exit status 0 (successful).
+ DEBUG [25cb40c6] Running /usr/bin/env ls -xtr /var/apps/shengwei_php_production/releases as deploy@120.26.78.41
+ DEBUG [25cb40c6] Command: /usr/bin/env ls -xtr /var/apps/shengwei_php_production/releases
+ DEBUG [25cb40c6] 	20160826074800
+ DEBUG [25cb40c6] Finished in 0.037 seconds with exit status 0 (successful).
+ DEBUG [088e1891] Running if test ! -d /var/apps/shengwei_php_production/releases; then echo "Directory does not exist '/var/apps/shengwei_php_production/releases'" 1>&2; false; fi as deploy@120.26.78.41
+ DEBUG [088e1891] Command: if test ! -d /var/apps/shengwei_php_production/releases; then echo "Directory does not exist '/var/apps/shengwei_php_production/releases'" 1>&2; false; fi
+ DEBUG [088e1891] Finished in 0.034 seconds with exit status 0 (successful).
+  INFO [5f177a4b] Running /usr/bin/env echo "Branch master (at c17f0a2a4c94b74e53fa5d2a4b67ace8e6aa7a19) deployed as release 20160826074800 by xiaodiao" >> /var/apps/shengwei_php_production/revisions.log as deploy@120.26.78.41
+ DEBUG [5f177a4b] Command: cd /var/apps/shengwei_php_production/releases && /usr/bin/env echo "Branch master (at c17f0a2a4c94b74e53fa5d2a4b67ace8e6aa7a19) deployed as release 20160826074800 by xiaodiao" >> /var/apps/shengwei_php_production/revisions.log
+  INFO [5f177a4b] Finished in 0.039 seconds with exit status 0 (successful).

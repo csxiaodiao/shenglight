@@ -1,0 +1,20 @@
+
+<!--导航开始-->
+<div class="nav">
+	<div class="navMain">
+    	<div class="logo">
+        	<a href="/"><img src="{IMG_PATH}G/logo.png" /></a>
+        </div>
+        <div class="navList">
+        {pc:content action="category" catid="0" num="25" siteid="$siteid" order="listorder ASC"}
+        	<ul>
+            	<li><a href="{siteurl($siteid)}">网站首页</a></li>
+                {loop $data $r}
+                <li><a href="{$r[url]}">{$r[catname]}</a></li>
+                {/loop}
+            </ul>
+        {/pc}
+        </div>
+    </div>
+</div>
+<!--导航结束-->

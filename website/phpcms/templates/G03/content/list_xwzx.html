@@ -1,0 +1,59 @@
+{template "content","header"}
+
+{template "content","g_banner"}
+
+
+{template "content","g_nav"}
+
+
+
+<!--内页详情开始-->
+<div class="n_Main">
+    <div class="n_left">
+        <div class="n_title">
+            <h3>{catpos($catid)}</h3>
+            <p>PRODUCTS SHOW</p>
+        </div>
+        {pc:content action="category" catid="$catid" num="25" siteid="$siteid" order="listorder ASC"}
+        <ul>
+            {loop $data $r}<li><a href="{$r[url]}">{$r[catname]}</a></li>
+            {/loop}
+        </ul>
+        {/pc}
+        <div class="QQline">
+            <a rel="nofollow" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=123456789>&amp;site=qq&amp;menu=yes"><img src="{IMG_PATH}G/QQ.png" /></a>
+        </div>
+        <div class="map">
+            <a href="#"><img src="{IMG_PATH}G/n_map.png" /></a>
+        </div>
+        <div class="n_contact">
+            <img src="{IMG_PATH}G/n_contact.jpg" />
+            电话：18651368540<br/>
+            传真：0512-58652209<br/>
+            邮箱：1030187249@qq.combr/>
+            邮编：215621<br/>
+            地址：张家港市圣微光伏科技有限公司<br/>
+            网址：www.shenglight.com<br/>
+        </div>
+        
+        
+    </div>
+    
+    <div class="n_right">
+        <div class="location">
+            圣微光伏科技欢迎你
+        </div>
+        <div class="n_centent">
+        {pc:content action="lists" catid="$catid" num="25" order="id DESC" page="$page"}
+            　<ul class="alMain">
+            {loop $data $r}
+                    <li><a href="{$r[url]}"><img src="{thumb($r[thumb],216,146)}" width="216" height="146"/><p>{$r[title]}</p></a></li>
+            {/loop}
+            </ul>
+            {/pc}
+        </div>
+
+    </div>
+</div>
+<!--内页详情结束-->
+{template "content","footer"}

@@ -1,0 +1,97 @@
+{template "content","header"}
+{template "content","g_banner"}
+<!--banner结束-->
+{template "content","g_nav"}
+
+<!--产品展示开始-->
+<div class="product">
+    <div class="productMain">
+        <div class="ptitle">
+            <span><a href="#"> </a>　/　<a href="#"> </a>　/　<a href="#"> </a>　/　<a href="#"> </a>　/　<a href="#"> </a></span>
+        </div>
+            {pc:content action="lists" catid="10" num="4" order="id DESC" page="$page"}
+            　<ul>
+            {loop $data $r}
+                    <li><a href="{$r[url]}"><img src="{thumb($r[thumb],264,198)}" width="264" height="198"/><p>{$r[title]}</p></a></li>
+            {/loop}
+            </ul>
+            {/pc}
+    </div>
+</div>
+<!--产品展示结束-->
+
+<!--关于我们开始-->
+<div class="about">  
+	<div class="aboutMain">
+    	<div class="pabout">
+            <span><a href="#">公司简介</a>　/　<a href="#">文化理念</a></span>
+        </div>
+        <div class="indexabout">
+            <div class="aboutimg"><img src="{IMG_PATH}G/aboutimg.jpg" /></div>
+            <div class="aboutcon">
+                <!--公司简介-->
+            	<div class="aboutjj">
+                　　张家港光伏科技有限公司有限公司成立于2016年，
+
+
+
+                </div>                
+            </div>
+            <div class="honorimg"><a href="#"><img src="{IMG_PATH}G/honor.jpg" /></a></div>
+        </div>
+    </div>
+</div>
+<!--关于我们结束-->
+
+<!--案例开始-->
+<div class="anli">
+	<div class="anliMain">
+    	<div class="anlititle">
+       		<span><a href="{$CATEGORYS[11][url]}">他们都选择了，您还在等什么？ 更多案例>></a></span>
+        </div>
+        <div class="anliList">
+        	{pc:content action="lists" catid="11" num="4" order="id DESC" page="$page"}
+            　<ul class="alMain">
+            {loop $data $r}
+                    <li><a href="{$r[url]}"><img src="{thumb($r[thumb],264,150)}" width="264" height="150"/><p>{$r[title]}</p></a></li>
+            {/loop}
+            </ul>
+            {/pc}
+        </div>
+    </div>
+</div>
+<!--案例结束-->
+
+<!--新闻和联系开始-->
+<div class="xwlx">      
+	<div class="xwlxMain">
+    	<div class="newsMain">
+        	<div class="ntitle"><span><a href="{$CATEGORYS[9][url]}">更多新闻>></a></span></div>
+            {pc:content action="lists" catid="9" num="5" order="id DESC" page="$page"}
+            　<ul class="alMain">
+            {loop $data $r}
+                    <li><a href="{$r[url]}"><p>{$r[title]}</p></a></li>
+            {/loop}
+            </ul>
+            {/pc}
+        </div>
+        <div class="consMain">
+        	<div class="ctitle"><span><a href="{$CATEGORYS[12][url]}">详细>></a></div>
+            <div class="conxx">
+            	<div class="conmap">
+                	<img src="{IMG_PATH}G/map.png" />
+                </div>
+                <ul>
+                    <li>咨询：18651368540</li>
+                    <li>售后：0512-58652209</li>
+                    <li>邮箱：1030187249@qq.com</li>
+                    <li>网址：www.shenglight.com</li>
+                    <li>邮编：215621</li>
+                    <li>地址：张家港市乐余镇乐西村十五组</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--新闻和联系结束-->
+{template "content","footer"}
