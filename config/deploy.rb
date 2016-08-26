@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 set :application, 'shengwei_php'
-set :repo_url, "git@github.com:csxiaodiao/xiaqi.git"
+set :repo_url, "git@github.com:csxiaodiao/shenglight.git"
 set :repo_tree, 'website'
 
 ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
